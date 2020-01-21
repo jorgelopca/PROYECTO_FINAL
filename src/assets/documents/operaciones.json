@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "operando1": "123",
+        "operador": "+",
+        "operando2": "",
+        "resultado": "150",
+        "escondido": "27"
+    },
+    {
+        "id":"2",
+        "operando1":"",
+        "operador":"/",
+        "operando2":"11",
+        "resultado":"11",
+        "escondido":"121"
+    },
+    {
+        "id":"3",
+        "operando1":"57",
+        "operador":"*",
+        "operando2":"",
+        "resultado":"171",
+        "escondido":"3"
+    },
+    {
+        "id":"4",
+        "operando1":"56",
+        "operador":"-",
+        "operando2":"",
+        "resultado":"30",
+        "escondido":"26"
+    },
+    {
+        "id":"5",
+        "operando1":"24",
+        "operador":"/",
+        "operando2":"",
+        "resultado":"8",
+        "escondido":"3"
+    },
+    {
+        "id":"6",
+        "operando1":"",
+        "operador":"/",
+        "operando2":"10",
+        "resultado":"10",
+        "escondido":"100"
+    }
+
+]

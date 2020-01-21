@@ -1,0 +1,21 @@
+<div class="container">
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/logo.png" width="30" height="30" alt=""><span class="titulo">E-nseñ@ndo</span>
+    </a>
+    <a class="nav-link sesion"><button (click)="cerrarSesion()">Hola {{usuario.nombre}}, Cerrar sesión</button></a>
+   </nav>
+<ul class="nav flex-column">
+    <p class="title">Menú de administrador</p>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/altaProf" routerLinkActive="active">Dar de alta profesor</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/altaAlumno" routerLinkActive="active">Dar de alta alumno</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Añadir juego</a>
+    </li>
+  </ul>
+</div>

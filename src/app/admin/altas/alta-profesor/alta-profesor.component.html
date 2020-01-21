@@ -1,0 +1,22 @@
+<app-menu-admin></app-menu-admin>
+
+<div class="contenido">
+    <form>
+        <h1 class="title">Alta de profesor</h1>
+        <div class="izquierda">
+            <p><label for="nombre">Nombre:</label><input type="text" id="nombre"></p>
+            <p><label for="apelido">Apellido:</label><input type="text" id="apellido"></p>
+            <p><label for="direccion">Dirección:</label><input type="text" id="direccion"></p>
+            <p><label for="telefono">Teléfono:</label><input type="text" id="telefono"></p>
+            <p><label for="mail">E-mail:</label><input type="text" id="mail"></p>
+            <p><label for="pass">Contraseña:</label><input type="text" id="pass"></p>
+        </div>
+        <div class="derecha">
+            <p><label for="sexo">Sexo:</label>Hombre<input type="radio" id="sexo" name="sexo" value="Hombre">
+                Mujer<input type="radio" id="sexo" name="sexo" value="Mujer"></p>
+            <p><label for="nacimiento">Fecha de nacimiento:</label><input type="date" id="nacimiento"></p>
+            <p><label for="dni">DNI:</label><input type="text" id="dni"></p>
+            <button name="Enviar" (click)="darDeAlta()">Dar de alta</button>
+        </div>
+    </form>
+</div>

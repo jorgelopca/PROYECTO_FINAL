@@ -1,0 +1,18 @@
+<div class="container">
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/images/logo.png" width="30" height="30" alt=""><span class="titulo">E-nseñ@ndo</span>
+        </a>
+        <a class="nav-link sesion" href="#"><button (click)="cerrarSesion()">Hola {{usuario.nombre}}, Cerrar sesión</button></a>
+       </nav>
+    <ul class="nav flex-column">
+        <p class="title">Menú de alumno</p>
+        <li class="nav-item">
+          <a routerLink="/jugar" routerLinkActive="active">Jugar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acceder al chat</a>
+        </li>
+      </ul>
+    </div>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+.container{
+    position:relative;
+    width: 55%;
+    top:90px;
+    background-color: #FFDAB9;
+    left:25%;
+    .title{
+        margin-left:-190px;
+        font-family: 'Abel', sans-serif;
+        background-color: #FFDAB9;
+    }
+    .imagenes{
+        background-color: #FFDAB9;
+
+        .izquierda{
+            float:left;
+            p{
+                margin-left:-60px;
+            }
+        }
+        .derecha{
+            float:right;
+            p{
+                margin-left:-90px;
+            }
+        }
+        img:first-of-type{
+            margin-left:-150px;
+        }
+        img{
+            margin-top:50px;
+            margin-right:252px;
+            width:200px;
+            height: 200px;
+            
+        }
+
+    }
+}

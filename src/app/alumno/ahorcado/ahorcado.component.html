@@ -1,0 +1,25 @@
+<app-menu-alumno></app-menu-alumno>
+<div class="container">
+    <h1 class="title">AHORCADO</h1>
+    <h2>Introduce letras hasta dar con la palabra</h2>
+    <div class="operacion">
+        <img src={{imagen}}>
+        <p class="palabra"><span *ngFor="let letra of letrasEscondidas">{{letra}} </span></p>
+    </div>
+    <div class="letras">
+<input type="text" placeholder="Introduce una letra" id="letra">
+    <button (click)="presionarBoton()" name="enviar">Comprobar letra</button>
+
+</div>
+    <div class="resultados">
+        <p>Llevas {{partida.puntosConseguidos}} puntos</p>
+        <p>Llevas {{partida.fallos}} fallos</p>
+    </div>
+
+    <div class="derecha">
+        <img src="{{imagenAhorcado}}">
+        <h3>Letras utilizadas</h3>
+        <p><span *ngFor="let letra of letrasUsadas">{{letra}}</span></p>
+    </div>
+
+</div>

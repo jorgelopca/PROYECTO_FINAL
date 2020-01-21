@@ -1,0 +1,53 @@
+[
+    {
+        "id": "1",
+        "palabra":"shoes",
+        "imagen":"shoes.png"
+    },
+    {
+        "id": "2",
+        "palabra":"jeans",
+        "imagen":"jeans.png"
+    },
+    {
+        "id": "3",
+        "palabra":"shirt",
+        "imagen":"shirt.png"
+    },
+    {
+        "id": "4",
+        "palabra":"boots",
+        "imagen":"boots.png"
+    },
+    {
+        "id": "5",
+        "palabra":"jacket",
+        "imagen":"jacket.png"
+    },
+    {
+        "id": "6",
+        "palabra":"socks",
+        "imagen":"socks.png"
+    },
+    {
+        "id": "7",
+        "palabra":"tracksuit",
+        "imagen":"tracksuit.png"
+    },
+    {
+        "id": "8",
+        "palabra":"coat",
+        "imagen":"coat.png"
+    },
+    {
+        "id": "9",
+        "palabra":"shorts",
+        "imagen":"shorts.png"
+    },
+    {
+        "id": "10",
+        "palabra":"vest",
+        "imagen":"vest.png"
+    }
+    
+]

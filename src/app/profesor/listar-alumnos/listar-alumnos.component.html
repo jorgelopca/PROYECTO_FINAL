@@ -1,0 +1,26 @@
+<app-menu-profesor></app-menu-profesor>
+<div class="contenido">
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col"><button (click)="ordenarApellido()"></button>Apellido</th>
+        <th scope="col"><button (click)="ordenarAhorcado()"></button>Puntos Ahorcado</th>
+        <th scope="col"><button (click)="ordenarOperaciones()"></button>Puntos Operaciones</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of listaAlumnos">
+          <th scope="row">{{user.id}}</th>
+            <td>{{user.nombre}}</td>
+            <td>{{user.apellido}}</td>
+            <td>{{user.puntos_ahorcado}}</td>
+            <td>{{user.puntos_operaciones}}</td>
+            <td><button name="expediente" class="btn btn-outline-primary" (click)="verExpediente(user.id)">Ver expediente</button></td>
+        </tr>
+      
+    </tbody>
+  </table>
+</div>

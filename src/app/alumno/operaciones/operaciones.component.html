@@ -1,0 +1,22 @@
+<app-menu-alumno></app-menu-alumno>
+<div class="container">
+    <h1 class="title">OPERACIONES</h1>
+    <h2>Resuelve la siguiente operación</h2>
+    <div class="operacion">
+        {{op1}}
+        <input type="text" id="escondido" *ngIf="op1===''">
+        {{operador}}
+        {{op2}}
+        <input type="text" id="escondido" *ngIf="op2===''">
+        =
+       {{resultado}}
+    </div>
+    <p></p>
+    <button (click)="presionarBoton()" name="enviar">Comprobar resultado</button>
+
+    <div class="resultados">
+        <p>Llevas {{partida.puntosConseguidos}} puntos</p>
+        <p>Llevas {{partida.fallos}} fallos</p>
+    </div>
+
+</div>
